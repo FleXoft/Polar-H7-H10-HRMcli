@@ -6,17 +6,15 @@ I've been planning this ever since I successfully managed to put together the sc
 Now I finally have some spare time to try and here is the result. Almost all the code from the original version could be reused.
 
 To compile:
-
 ```
 swiftc Polar-H7-H10-HRMcli.swift
-
+```
  or
-
+```
 swiftc -sdk `xcrun --show-sdk-path` Polar-H7-H10-HRMcli.swift
 ```
 
-To use:
-
+To run:
 ```
 ./Polar-H7-H10-HRMcli start
 ```
