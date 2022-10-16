@@ -9,7 +9,9 @@ To compile:
 
 ```
 swiftc Polar-H7-H10-HRMcli.swift
-or
+
+ or
+
 swiftc -sdk `xcrun --show-sdk-path` Polar-H7-H10-HRMcli.swift
 ```
 
