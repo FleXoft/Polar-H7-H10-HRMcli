@@ -3,11 +3,12 @@
 // swiftc -sdk `xcrun --show-sdk-path` Polar-H7-H10-HRMcli.swift
 
 import CoreBluetooth
-
-let args = CommandLine.arguments
+ 
+let args       = CommandLine.arguments
 
 if args.count != 2 {
     print( "Program usage: \((args[0] as NSString).lastPathComponent) start " )
+    NSLog( "No arg!" )
     exit( -1 )
 }
 
